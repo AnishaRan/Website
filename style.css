@@ -30,6 +30,9 @@
     font-weight: 600;
     margin: auto 0 auto 10px;
 }
+.navbar .logo a span{
+    color: rgb(32, 54, 95); /*logo color*/
+}
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -39,7 +42,7 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease; /*hover effect*/
 }
 .navbar .menu li a:hover{
     color: rgb(32, 54, 95);
