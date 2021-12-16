@@ -60,6 +60,12 @@
     color: #fff
     
 }
+/* menu btn styling */
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+}
 
 
 /* home section styling */
