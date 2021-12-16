@@ -10,7 +10,7 @@
 .navbar{
     position: fixed;
     width: 100%;
-    background: crimson;
+    background: cornflowerblue;
 }
 .navbar .menu li a{
     color: #fff;
