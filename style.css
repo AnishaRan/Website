@@ -16,7 +16,7 @@
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    background: cornflowerblue;
+    background: rgb(32, 54, 95);
     font-family: 'Montserrat', sans-serif;
 }
 .navbar .max-width{
