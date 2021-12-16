@@ -45,7 +45,8 @@
     display: flex;
     /* background: url("images/gradpic.jpg") no-repeat center; */
     height: 100vh;
-    color: #fff;
+    /* color: #fff; */
+    color: cornflowerblue;
     min-height: 500px;
     font-family: 'Montserrat', sans-serif;
 }
