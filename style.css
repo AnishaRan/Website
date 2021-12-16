@@ -13,6 +13,11 @@
     background: cornflowerblue;
     font-family: 'Montserrat', sans-serif;
 }
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .navbar .logo a{
     color: #fff;
     font-size: 35px;
