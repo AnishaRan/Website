@@ -15,7 +15,7 @@
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 5px 0;
+    padding: 15px 0;
     background: cornflowerblue;
     font-family: 'Montserrat', sans-serif;
 }
@@ -28,6 +28,7 @@
     color: #fff;
     font-size: 35px;
     font-weight: 600;
+    text-align: left;
 }
 .navbar .menu li{
     list-style: none;
@@ -43,7 +44,7 @@
 /* home section styling */
 .home{
     display: flex;
-    /* background: url("images/backg-neon.jpg") no-repeat center; */
+    background: url("images/backg-midBlueGrad.jfif") no-repeat center;
     height: 100vh;
     /* color: #fff; */
     color: cornflowerblue;
