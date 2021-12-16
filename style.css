@@ -96,5 +96,7 @@
 
 /* responsive media query start */
 @media (max-width: 991px){
-
+    .max-width{
+        padding: 0 50px;
+    }
 }
