@@ -96,6 +96,9 @@
 .home .home-content a{
     display: inline-block;
     background: rgb(32, 54, 95);
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
 }
 
 /* responsive media query start */
