@@ -34,7 +34,7 @@
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgb(32, 54, 95); /*logo color*/
+    color: #fff; /*logo color*/
 }
 .navbar .menu li{
     list-style: none;
