@@ -138,7 +138,7 @@
         width: 100%;
         left: -100%;
         top: 0;
-        background: rgb(32, 54, 95);; /*color: rgb(32, 54, 95);*/
+        background: rgb(32, 54, 95); /*color: rgb(32, 54, 95);*/
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
