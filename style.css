@@ -45,4 +45,10 @@
     display: flex;
     background: url("images/gradpic.jpg") no-repeat center;
     height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Montserrat', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
 }
