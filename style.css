@@ -16,8 +16,12 @@
     position: fixed;
     width: 100%;
     padding: 30px 0; /*edit here*/
-    /* background: rgb(32, 54, 95); */
     font-family: 'Montserrat', sans-serif;
+}
+.navbar.sticky{
+    padding: 30px 0; /*edit here*/
+    background: rgb(32, 54, 95);
+
 }
 .navbar .max-width{
     display: flex;
@@ -42,7 +46,7 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    transition: color 0.5s ease; /*hover effect*/
+    transition: color 0.5s ease; /*hover effect, prev 0.3s*/
 }
 .navbar .menu li a:hover{
     color: rgb(32, 54, 95);
