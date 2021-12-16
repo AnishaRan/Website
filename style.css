@@ -94,11 +94,15 @@
     margin: 5px 0;
 }
 .home .home-content a{
-    display: inline-block;
-    background: rgb(32, 54, 95);
-    color: #fff;
+    /* display: inline-block; */
+    /* background: rgb(32, 54, 95); */
+    /* color: #fff; */
+    color: rgb(32, 54, 95);
     font-size: 25px;
     padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(32, 54, 95);
 }
 
 /* responsive media query start */
