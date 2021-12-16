@@ -61,11 +61,12 @@
     
 }
 /* menu btn styling */
-/* .menu-btn{
+.menu-btn{
     color: #fff;
     font-size: 23px;
     cursor: pointer;
-} */
+    display: none;
+}
 
 
 /* home section styling */
@@ -91,4 +92,9 @@
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
+}
+
+/* responsive media query start */
+@media (max-width: 991px){
+
 }
