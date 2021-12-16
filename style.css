@@ -15,11 +15,11 @@
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 30px 0; /*edit here*/
+    padding: 30px 0;
     font-family: 'Montserrat', sans-serif;
 }
 .navbar.sticky{
-    padding: 30px 0; /*edit here*/
+    padding: 30px 0;
     background: rgb(32, 54, 95);
 
 }
@@ -32,7 +32,6 @@
     color: #fff;
     font-size: 35px;
     font-weight: 600;
-    margin: auto 0 auto 10px;
 }
 .navbar .logo a span{
     color: rgb(32, 54, 95); /*logo color*/
@@ -46,7 +45,7 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    transition: color 0.5s ease; /*hover effect, prev 0.3s*/
+    transition: color 0.2s ease; /*hover effect, prev 0.3s*/
 }
 .navbar .menu li a:hover{
     color: rgb(32, 54, 95);
