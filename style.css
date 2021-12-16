@@ -6,3 +6,9 @@
     text-decoration: none;
     background: pink;
 }
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: crimson;
+}
