@@ -103,6 +103,11 @@
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid rgb(32, 54, 95);
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: #fff;
+    background: rgb(32, 54, 95);
 }
 
 /* responsive media query start */
