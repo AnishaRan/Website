@@ -47,6 +47,7 @@
     display: inline-block;
 }
 .navbar .menu li a{
+    display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -159,6 +160,10 @@
     .home .home-content .text-3{
         font-size: 35px;
     }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
 }
 
 @media (max-width: 690px){
@@ -170,6 +175,9 @@
     }
     .home .home-content .text-3{
         font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
     }
 }
 
