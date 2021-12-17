@@ -112,7 +112,15 @@
 }
 
 /* responsive media query start */
-@media (max-width: 1104px){
+@media (max-width: 500px){
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+}
+/*@media (max-width: 1104px){
     .home .max-width{
         margin-left: 0px;
     }
@@ -138,7 +146,7 @@
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111; /*color: rgb(32, 54, 95);*/
+        background: #111; //color: rgb(32, 54, 95);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -188,4 +196,4 @@
     .home .home-content .text-3{
         font-size: 27px;
     }
-}
+}*/
