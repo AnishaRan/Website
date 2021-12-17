@@ -94,6 +94,10 @@
     font-size: 40px;
     margin: 5px 0;
 }
+.home .home-content .text-3 span{
+    color:rgb(32, 54, 95);
+    font-weight: 500;
+}
 .home .home-content a{
     display: inline-block;
     /* background: rgb(32, 54, 95); */
@@ -110,6 +114,24 @@
     color: #fff;
     background: rgb(32, 54, 95);
 }
+
+
+
+/* about section styling */
+.about{
+    font-family: 'Poppins', sans-serif;
+}
+.about
+
+
+
+
+
+
+
+
+
+
 
 .container {
     display: inline-block;
@@ -142,7 +164,9 @@
     transform: rotate(45deg) translate(-8px, -8px) ;
   }*/
 
+
 /* responsive media query start */
+
 /*@media (max-width: 1104px){
     .home .max-width{
         margin-left: 0px;
