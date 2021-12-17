@@ -159,6 +159,28 @@ section{
 .about .about-content .right{
     width: 55%;
 }
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/*.about .about-content .right .text span{
+
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    color: rgb(32, 54, 95);
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(32, 54, 95);
+    transition: all 0.3s ease;
+}*/
+
 
 
 
