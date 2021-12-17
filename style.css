@@ -116,6 +116,20 @@
     background: rgb(32, 54, 95);
 }
 
+/* section styling */
+section{
+    padding: 100px 0;
+}
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 
 /* about section styling */
@@ -141,6 +155,7 @@ section{
     height: 3px;
     background: #111;
 }*/
+
 .about .about-content{
     display: flex;
     flex-wrap: wrap;
