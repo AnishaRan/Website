@@ -118,14 +118,28 @@
 
 
 /* about section styling */
-
+section{
+    padding: 100px 0;
+}
 .about{
     font-family: 'Poppins', sans-serif;
 }
 .about .title{
+    position: relative;
     text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
 }
+/*.about .title::before{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    background: ;
+}*/
 .about .about-content .left img{
     height: 400px;
     width: 400px;
