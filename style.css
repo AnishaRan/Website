@@ -118,15 +118,18 @@
 
 
 /* about section styling */
+
 .about{
     font-family: 'Poppins', sans-serif;
 }
 .about .title{
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 .about .about-content .left img{
     height: 400px;
     width: 400px;
+    object-fit: cover;
 }
 
 
