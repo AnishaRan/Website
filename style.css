@@ -121,7 +121,13 @@
 .about{
     font-family: 'Poppins', sans-serif;
 }
-.about
+.about .title{
+    font-family: 'Montserrat', sans-serif;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+}
 
 
 
