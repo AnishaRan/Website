@@ -133,13 +133,13 @@ section{
     padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
 }
-/*.about .title::before{
+.about .title::before{
     content: "";
     position: absolute;
     width: 180px;
     height: 3px;
-    background: ;
-}*/
+    /* background: ; */
+}
 .about .about-content .left img{
     height: 400px;
     width: 400px;
