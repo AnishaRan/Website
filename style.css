@@ -138,7 +138,7 @@ section{
     position: absolute;
     width: 180px;
     height: 3px;
-    /* background: ; */
+    background: #111;
 }
 .about .about-content .left img{
     height: 400px;
