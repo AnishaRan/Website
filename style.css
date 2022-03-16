@@ -120,6 +120,9 @@
 section{
     padding: 100px 0;
 }
+.about, .skills{
+    font-family: 'Poppins', sans-serif;
+}
 section .title{
     position: relative;
     text-align: center;
@@ -136,9 +139,7 @@ section .title{
 section{
     padding: 100px 0;
 }
-.about{
-    font-family: 'Poppins', sans-serif;
-}
+
 .about .title{
     position: relative;
     text-align: center;
