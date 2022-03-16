@@ -178,8 +178,8 @@ section{
     width: 55%;
 }
 .about .about-content .right .text{
-    font-size: 35px;
-    font-weight: 680;
+    font-size: 35px; /*initially @ fs: 25px fw: 600*/
+    font-weight: 600;
     margin-bottom: 10px;
 }
 /*.about .about-content .right .text span{
