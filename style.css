@@ -123,6 +123,13 @@ section{
 .about, .skills{
     font-family: 'Poppins', sans-serif;
 }
+.about .about-content, 
+.skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 section .title{
     position: relative;
     text-align: center;
@@ -157,12 +164,7 @@ section{
     background: #111;
 }*/
 
-.about .about-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
+
 .about .about-content .left{
     width: 45%;
 }
@@ -199,7 +201,7 @@ section{
 
 
 
-/* about section styling */
+/* skills section styling */
 
 
 
