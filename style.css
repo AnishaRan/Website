@@ -63,7 +63,7 @@ section .title::after{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: 35px; /*inititally 25px*/
     transition: color 0.2s ease; /*hover effect, prev 0.3s*/
 }
 .navbar .menu li a:hover{
