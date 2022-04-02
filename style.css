@@ -136,7 +136,7 @@ section .title::after{
 section{
     padding: 100px 0;
 }
-.about, .skills{
+.about, .skills, .projects{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
