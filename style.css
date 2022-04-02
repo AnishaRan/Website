@@ -223,7 +223,9 @@ section{
 
 
 /* skills section styling */
-
+.skills {
+    background: #61d7ff;
+}
 
 
 
@@ -275,10 +277,13 @@ section{
   
 
   /* projects section styling */
-  .projects .title::after{
-      content: "w"
+  /*.projects {
+      background: #61d7ff;
+  }*/
+  /*.projects .title::after{
+      content: "my projects"
 
-  }
+  }*/
 
 
 
