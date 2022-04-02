@@ -195,6 +195,7 @@ section{
     object-fit: cover;
     border-radius: 6px;
 }
+
 .about .about-content .right{
     width: 55%;
 }
@@ -433,6 +434,12 @@ section{
         justify-content: center;
         margin: 0 auto 60px;
     }
+  
+.projects .proj-content .card{
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+}
+  
     .about .about-content .right{
         flex: 100%;
     }
@@ -450,6 +457,9 @@ section{
     }
     .home .home-content a{
         font-size: 20px;
+    }
+  .projects .proj-content .card{
+        width: 100%;
     }
 }
 
