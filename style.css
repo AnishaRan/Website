@@ -308,6 +308,35 @@ section{
         font-weight: 500;
         margin: 10px 0 7px 0;
     }
+
+    /*new card 1*/
+
+    .projects .proj-content .center, 
+    .projects .proj-content .front-face,
+    .projects .proj-content .contents,
+    .projects .proj-content .back-face {
+        position:absolute ;
+    }
+
+    .projects .proj-content .center{
+        /*top: 50%;
+        left: 50%;*/
+        transform: translate(-50%, -50%);
+        /*height: 400px;
+        width: 290px;*/
+    }
+
+    .projects .proj-content .front-face {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        background: #111;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+
   
 
 
