@@ -285,10 +285,21 @@ section{
 
   }*/
   .projects .proj-content .card {
-      width: calc(33% - 20px);
-      background: #b3ecff;
-      text-align: center;
-  }
+        width: calc(33% - 20px);
+        background: #b3ecff;
+        display: inline-flex;
+        text-align: center;
+        border-radius: 6px;
+        padding: 50px 25px;
+        cursor: pointer;
+    }
+
+    .projects .proj-content .card .text{
+        font-size: 25px;
+        font-weight: 500;
+        margin: 10px 0 7px 0;
+    }
+  
 
 
 
