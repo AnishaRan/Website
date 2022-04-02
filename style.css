@@ -296,6 +296,8 @@ section{
         background: #b3ecff;
         display: inline-flex;
         text-align: center;
+        transform-style: preserve-3d;
+        perspective: 1000px;
         border-radius: 6px;
         padding: 50px 25px;
         cursor: pointer;
