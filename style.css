@@ -330,7 +330,7 @@ section{
         height: 100%;
         width: 100%;
         text-align: center;
-        background: #111;
+        background: url(BlockZoid.png);
         background-size: cover;
         background-position: center;
         border-radius: 10px;
