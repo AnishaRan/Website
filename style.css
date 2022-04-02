@@ -224,7 +224,7 @@ section{
 
 /* skills section styling */
 .skills {
-    background: #d7f5ff;
+    background: #c9f2ff; /*before (slightly darker) dbf6ff*/
 }
 
 
@@ -286,6 +286,8 @@ section{
   }*/
   .projects .proj-content .card {
       width: calc(33% - 20px);
+      background: #b3ecff;
+      text-align: center;
   }
 
 
