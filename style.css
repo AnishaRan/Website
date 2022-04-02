@@ -230,6 +230,9 @@ section{
 .skills .skills-content {
     font-size: 20;
 }
+.skills .skills-content .languages{
+    margin-bottom: 25px;
+}
 
 
 
