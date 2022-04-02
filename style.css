@@ -227,6 +227,9 @@ section{
 .skills {
     background: #c9f2ff; /*before (slightly darker) dbf6ff*/
 }
+.skills .skills-content {
+    font-size: 20;
+}
 
 
 
