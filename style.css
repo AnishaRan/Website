@@ -311,7 +311,7 @@ section{
 
     /*new card 1*/
 
-    .projects .proj-content .center, 
+    /*.projects .proj-content .center, 
     .projects .proj-content .front-face,
     .projects .proj-content .contents,
     .projects .proj-content .back-face {
@@ -334,7 +334,7 @@ section{
         background-size: cover;
         background-position: center;
         border-radius: 10px;
-    }
+    }*/
 
 
   
