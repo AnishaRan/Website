@@ -292,22 +292,33 @@ section{
 
   }*/
   .projects .proj-content .card {
-        width: calc(33% - 20px);
-        background: #b3ecff;
-        display: inline-flex;
-        text-align: center;
-        transform-style: preserve-3d;
-        perspective: 1000px;
-        border-radius: 6px;
-        padding: 50px 25px;
-        cursor: pointer;
-    }
+    width: calc(33% - 20px);
+    background: #cadbdf;
+    display: inline-flex;
+    text-align: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
-    .projects .proj-content .card .text{
-        font-size: 25px;
-        font-weight: 500;
-        margin: 10px 0 7px 0;
-    }
+.projects .proj-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.projects .proj-content .card:hover {
+background: #cdf3fc;
+}
+
+.projects .proj-content .card .box{
+transition: all 0.3s ease;
+}
+.projects .proj-content .card:hover .box{
+transform: scale(1.03);
+}
 
     /*new card 1*/
 
@@ -321,9 +332,9 @@ section{
     .projects .proj-content .center{
         /*top: 50%;
         left: 50%;*/
-        transform: translate(-50%, -50%);
-        /*height: 400px;
-        width: 290px;*/
+        /*transform: translate(-50%, -50%);
+        height: 400px;
+        width: 290px;
     }
 
     .projects .proj-content .front-face {
