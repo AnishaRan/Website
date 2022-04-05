@@ -293,7 +293,7 @@ section{
   }*/
   .projects .proj-content .card {
     width: calc(33% - 20px);
-    background: #cadbdf;
+    background: #cdf3fc;
     display: inline-flex;
     text-align: center;
     transform-style: preserve-3d;
@@ -310,11 +310,12 @@ section{
     margin: 10px 0 7px 0;
 }
 .projects .proj-content .card:hover {
-background: #cdf3fc;
+background: #263a64;
+  color: #fff;
 }
 
 .projects .proj-content .card .box{
-transition: all 0.3s ease;
+transition: all 0.1s ease;
 }
 .projects .proj-content .card:hover .box{
 transform: scale(1.03);
@@ -490,6 +491,11 @@ transform: scale(1.03);
   
     .about .about-content .right{
         flex: 100%;
+    }
+
+    .projects .proj-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
     }
 }
 
