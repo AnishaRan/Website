@@ -512,9 +512,10 @@ transform: scale(1.03);
     .home .home-content a{
         font-size: 20px;
     }
-  .projects .proj-content .card{
+    .projects .proj-content .card {
         width: 100%;
     }
+    
 }
 
 @media (max-width: 500px){
