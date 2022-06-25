@@ -140,8 +140,8 @@ section{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
-.skills .skills-content
-.projects .proj-content
+.skills .skills-content,
+.projects .proj-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
