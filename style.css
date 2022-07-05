@@ -332,6 +332,10 @@ transition: all 0.1s ease;
 .projects .proj-content .card:hover .box{
 transform: scale(1.03);
 }
+    a:visited { 
+        text-decoration: none; 
+        color: black; 
+    }
 
     /*new card 1*/
 
