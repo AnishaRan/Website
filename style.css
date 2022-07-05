@@ -234,6 +234,11 @@ section{
 .skills .skills-content .languages{
     margin-bottom: 25px;
 }
+.skills .skills-content .column,
+.contact .contact-content .column {
+    width: 100%;
+    margin-bottom: 35px;
+}
 
 
 
@@ -396,6 +401,9 @@ transform: scale(1.03);
       height: 100%;
       width: 100%;
   }*/
+    /*.contact {
+        background: #c9f2ff;
+    }*/
     .contact .contact-content .column {
         width: calc(50% - 30px);
     } 
