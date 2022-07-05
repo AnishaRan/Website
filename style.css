@@ -472,8 +472,8 @@ transform: scale(1.03);
         width: 100%;
         height: 100%;
         border: 2px solid #263a64;
-        background: #c9f2ff;
-        color: #fff;
+        background: none;
+        color: #263a64;
         font-size: 20px;
         font-weight: 500;
         border-radius: 6px;
@@ -482,7 +482,7 @@ transform: scale(1.03);
     }
     .contact .right form .button button:hover {
         color: #fff;
-        background: none;
+        background: #263a64;
     }
 
 
