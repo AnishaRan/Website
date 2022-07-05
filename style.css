@@ -635,10 +635,10 @@ transform: scale(1.03);
         margin: 0 auto 60px;
     }
   
-.projects .proj-content .card{
-      width: calc(50% - 10px);
-      margin-bottom: 20px;
-}
+    .projects .proj-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
   
     .about .about-content .right{
         flex: 100%;
@@ -675,5 +675,16 @@ transform: scale(1.03);
     }
     .home .home-content .text-3{
         font-size: 27px;
+    }
+
+    .contact .right form .fields {
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .right form .error-box{
+       width: 150px;
     }
 }
