@@ -487,6 +487,7 @@ transform: scale(1.03);
         border-radius: 6px;
         cursor: pointer;
         transition: all 0.3s ease;
+        margin-top: 15px;
     }
     .contact .right form .button button:hover {
         color: #fff;
