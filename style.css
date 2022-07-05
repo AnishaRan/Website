@@ -88,7 +88,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/backg-lightBluetoWhite.jpg") no-repeat center;
+    /* background: url("images/backg-lightBluetoWhite.jpg") no-repeat center; */
+    background: url("images/particle_vid_2.mp4") no-repeat center;
+    background-repeat: repeat;
     height: 100vh;
     color: #fff;
     min-height: 500px;
