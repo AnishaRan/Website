@@ -142,11 +142,12 @@ section .title::after{
 section{
     padding: 100px 0;
 }
-.about, .skills, .projects, .contact{
+.about, .skills, .work, .projects, .contact{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
 .skills .skills-content,
+.work .work-content,
 .projects .proj-content,
 .contact .contact-content{
     display: flex;
@@ -241,10 +242,27 @@ section{
     margin-bottom: 25px;
 }
 .skills .skills-content .column,
+.work .work-content .column,
 .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
 }
+
+
+
+
+
+/* work section styling */
+.work {
+    background: #fff; /*before (slightly darker) dbf6ff*/
+}
+.work .work-content {
+    font-size: 20;
+}
+.work .work-content {
+    margin-bottom: 25px;
+}
+
 
 
 
@@ -317,7 +335,7 @@ section{
 }
 
 .projects .proj-content .card .text{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
@@ -414,6 +432,9 @@ transform: scale(1.03);
     /*.contact {
         background: #c9f2ff;
     }*/
+    .contact {
+        background: #c9f2ff;
+    }*
     .contact .contact-content .column {
         width: calc(50% - 30px);
     } 
@@ -438,14 +459,14 @@ transform: scale(1.03);
     }
     .contact .contact-content .row i{
     font-size: 25px;
-    color: #263a64;
+    color: #000000;
     }
     .contact .contact-content .info .head {
     font-weight: 500;
     }
-    .contact .contact-content .info .sub-title {
+    /* .contact .contact-content .info .sub-title {
         color: #263a64;
-    }
+    } */
     
     .contact .right form .fields {
         display: flex;
