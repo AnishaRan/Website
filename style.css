@@ -193,9 +193,6 @@ section .title::after{
   }
 
 /* section styling */
-section{
-    padding: 100px 0;
-}
 .about, .skills, .work, .projects, .contact{
     font-family: 'Poppins', sans-serif;
 }
@@ -222,7 +219,7 @@ section .title{
 
 /* all similar content styling code */
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 
@@ -270,7 +267,9 @@ section{
 .skills .skills-content {
     font-size: 20;
 }
-.skills .skills-content .languages{
+.skills .skills-content .languages,
+.skills .skills-content .technologies
+{
     margin-bottom: 25px;
 }
 .skills .skills-content .column,
