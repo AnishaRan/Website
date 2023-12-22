@@ -105,7 +105,7 @@ section .title::after{
     position: absolute;
     top: 50%;
     right: 10%; /* Adjust this value as needed */
-    transform: translateY(-50%);
+    transform: translateY(-45%);
 }
 
 /* Adjust the styles as needed */
@@ -271,9 +271,12 @@ section{
     width: 55%;
 }
 .about .about-content .right .text{
-    font-size: 35px; /*initially fs: 25px fw: 600*/
-    font-weight: 600;
+    font-size: 25px; /*initially fs: 25px fw: 600*/
+    font-weight: 550;
     margin-bottom: 10px;
+}
+.about .about-content .right p{
+    font-size: 18px; /*initially fs: 25px fw: 600*/
 }
 
 
@@ -334,6 +337,12 @@ section{
     display: inline-block;
     cursor: pointer;
   }
+
+  .projects .proj-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   
   .projects .proj-content .card {
     width: calc(33% - 20px);
@@ -343,6 +352,7 @@ section{
     transform-style: preserve-3d;
     perspective: 1000px;
     border-radius: 6px;
+    margin: 20px 10px;
     margin-top: 20px;
     padding: 50px 20px;
     cursor: pointer;
