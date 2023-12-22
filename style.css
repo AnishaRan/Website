@@ -15,6 +15,7 @@ html{
     margin: auto;
 }
 
+
 section .title::after{
     position: absolute;
     bottom: -8px;
@@ -96,11 +97,28 @@ section .title::after{
     color: #fff;
     min-height: 500px;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
+
+/* Add this CSS to style the image */
+.image-container {
+    position: absolute;
+    top: 50%;
+    right: 10%; /* Adjust this value as needed */
+    transform: translateY(-50%);
+}
+
+/* Adjust the styles as needed */
+.image-container img {
+    width: 100%;
+    max-width: 500px;
+}
+
 .home .max-width{
     /*margin: auto 0 auto 40px;*/
     width: 100%;
     display: flex;
+    
 }
 .home .max-width .row {
     margin-right: 0;
@@ -456,7 +474,13 @@ section{
 
 @media (max-width: 1300px){
     .home .max-width{
-        margin-left: 0px;
+        margin-left: 30px;
+    }
+    .image-container {
+        right: 5%;
+    }
+    .image-container img {
+        max-width: 400px;
     }
 }
 
@@ -465,11 +489,20 @@ section{
         height: 350px;
         width: 350px;
     }
+    .image-container {
+        right: 5%;
+    }
+    .image-container img {
+        max-width: 270px;
+    }
 }
 
 @media (max-width: 991px){
     .max-width{
         padding: 0 50px;
+    }
+    .image-container img {
+        max-width: 200px;
     }
 }
 
@@ -546,6 +579,31 @@ section{
         width: 100%;
         margin-bottom: 35px;
     }
+    /* move to bottom */
+    .image-container img {
+        max-width: 170px;
+    }
+}
+
+@media (max-width: 838px){
+
+    .home .max-width {
+        flex-direction: column-reverse; /* Stack columns in reverse order on small screens */
+        align-items: center; /* Center items when stacked */
+    }
+
+
+    .home .home-content {
+        margin-bottom: 30px; /* Add some spacing between home-content and the image */
+    }
+
+    .image-container {
+        right: initial;
+        padding-top: 30px;
+        margin-top: 200px; /* Add margin for spacing */
+    }
+    
+
 }
 
 @media (max-width: 690px){
