@@ -592,7 +592,8 @@ section{
     }
     /* move to bottom */
     .image-container img {
-        max-width: 170px;
+        max-width: 160px;
+        margin-bottom: 90px;
     }
 }
 
