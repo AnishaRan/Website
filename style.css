@@ -309,10 +309,10 @@ section{
 .work {
     background: #c9f2ff; /*before (slightly darker) dbf6ff*/
 }
+
 .work .work-content {
-    font-size: 20;
-}
-.work .work-content {
+    font-size: 18px;
+    font-weight: 50;
     margin-bottom: 25px;
 }
 
