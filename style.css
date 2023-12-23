@@ -612,6 +612,8 @@ section{
         padding-top: 30px;
         margin-top: 200px; /* Add margin for spacing */
     }
+
+
     
 
 }
@@ -631,6 +633,10 @@ section{
     }
     .projects .proj-content .card {
         width: 100%;
+    }
+    .home .home-content {
+        margin-bottom: 100px;
+        align-items: center;
     }
     
 }
