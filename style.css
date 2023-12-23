@@ -285,6 +285,7 @@ section{
 .skills {
     background: #c9f2ff; /*before (slightly darker) dbf6ff*/
 }
+
 .skills .skills-content {
     font-size: 20;
 }
@@ -306,7 +307,7 @@ section{
 
 /* work section styling */
 .work {
-    background: #fff; /*before (slightly darker) dbf6ff*/
+    background: #c9f2ff; /*before (slightly darker) dbf6ff*/
 }
 .work .work-content {
     font-size: 20;
