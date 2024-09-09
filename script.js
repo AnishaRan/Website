@@ -15,6 +15,8 @@ $(document).ready(function(){
         }
     });
 
+
+
     // toggle menu bars (new)
     function myFunction(x) {
         x.classList.toggle("change");
@@ -26,4 +28,11 @@ $(document).ready(function(){
     $(".navbar .menu li a").click(function () {
         closeMenu();
     });
+        // typing animation
+        var typed = new Typed('#element', {
+            strings: ['Software Engineer', 'Full Stack Dev', 'Bug Squisher', 'Musician'],
+            typeSpeed: 20,
+            loop: true,
+            backDelay: 1100,
+          });
 });
