@@ -30,7 +30,7 @@ $(document).ready(function(){
     });
         // typing animation
         var typed = new Typed('#element', {
-            strings: ['Software Engineer', 'Bug Squisher', 'Musician'],
+            strings: ['Software Engineer', 'Bug Squasher', 'Musician'],
             typeSpeed: 20,
             loop: true,
             backDelay: 1100,
